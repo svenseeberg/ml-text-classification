@@ -1,7 +1,7 @@
 # Description
 This is a lightweight REST daemon that does text classification based on machine learning. The code is based on https://iamtrask.github.io/2015/07/12/basic-python-network/ and https://machinelearnings.co/text-classification-using-neural-networks-f5cd7b8765c6. It works only for smaller amounts of text.
 
-This is a fun project that was created during SUSE Hackweek 17.
+This is a fun project that was created during SUSE Hackweek 17 (https://hackweek.suse.com/).
 
 # Installation
 1. ```git clone git@github.com:svenseeberg/ml-text-classification.git```

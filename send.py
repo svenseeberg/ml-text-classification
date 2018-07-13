@@ -3,15 +3,7 @@ import requests
 import sys
 import json
 
-data = [
-    {'category': 'Living', 'text': 'Someone is living in a house.'},
-    {'category': 'Documentation', 'text': 'Bob works for Documentation.'},
-    {'category': 'Documentation', 'text': 'Alice is writing documents.'},
-    {'category': 'Linux', 'text': 'SUSE is an Open Source Linux company.'},
-    {'category': 'Linux', 'text': 'openSUSE is based on the Linux kernel.'},
-]
-
-with open('training-clean.json') as f:
+with open('training.json') as f:
     data = json.load(f)
 
 if(len(sys.argv) == 1 or sys.argv[1] == "add"):

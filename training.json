@@ -1,0 +1,7 @@
+[
+    {"category": "Living", "text": "Someone is living in a house."},
+    {"category": "Documentation", "text": "Bob works for Documentation."},
+    {"category": "Documentation", "text": "Alice is writing documents."},
+    {"category": "Linux", "text": "SUSE is an Open Source Linux company."},
+    {"category": "Linux", "text": "openSUSE is based on the Linux kernel."}
+]
